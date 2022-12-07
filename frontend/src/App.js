@@ -1,5 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect } from "react";
 
+import "./App.css"
+
+function App() {
+  return <div className="App"></div>
+}
+
+export default App
+
+/*
 function App() {
   useEffect(() => {
     fetch("/movies")
@@ -11,3 +21,4 @@ function App() {
 }
 
 export default App;
+*/
