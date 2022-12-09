@@ -31,7 +31,7 @@ a {
     box-shadow: var(--box-shadow);
 }
 
-.navbar .logo {
+.logo {
     width: 260px;
     height: 70px;
 }
@@ -146,4 +146,29 @@ section {
     width: 125px;  
     height: 120px;
     border-radius: 100px;
+}
+
+form input.form-control {
+    height:56px;
+}
+
+form .form-control {
+    border: transparent;
+   
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.footer-top {
+    padding-bottom: 90px;
+    padding-top: 60px;
+    background-color: rgb(247, 155, 35);
+}
+
+.footer-top a {
+    color: black;
+}
+
+
+.footer-top a:hover {
+    color: white;
 }
