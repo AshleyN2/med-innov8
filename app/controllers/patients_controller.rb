@@ -10,12 +10,13 @@ class PatientsController < ApplicationController
             render json: patient
         else
             render json: {error: "Patient not found"} 
+        end
     end
 
-private 
+    private 
 
-def patient_params
-    params.permit(:patient_name, :age, :gender, :diagnosis)
-end
+    def patient_params
+        params.permit(:patient_name, :age, :gender, :diagnosis)
+    end
 
 end
