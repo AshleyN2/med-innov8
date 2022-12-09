@@ -14,7 +14,7 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img class="logo" src="2logo.png" alt="">
@@ -26,13 +26,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Clinical Services</a>
+            <a class="nav-link" href="#clinicalservices">Clinical Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Doctors</a>
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Management Board</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
@@ -47,7 +50,7 @@
   </nav> <!-- NAVBAR ENDS HERE -->
 
   <!--HERO-->
-  <div class="hero vh-100 d-flex align-items-center">
+  <div class="hero vh-100 d-flex align-items-center" id="home">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 mx-auto text-center">
@@ -62,9 +65,10 @@
   </div>
   <!--HERO ENDS HERE-->
 
-  <section id="section">
+  <!--SERVICES-->
+  <section id="clinicalservices">
     <div class="container">
-      <div class="row">
+      <div class="row  mb-5">
         <div class="col-md-8 mx-auto text-center">
           <h6 class="text-primary">CLINICAL SERVICES</h6>
           <h1>Our Services</h1>
@@ -78,21 +82,213 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4">
+      <!--Outpatient-->
+      <div class="row g-4">
+        <div class="col-lg-4 col-sm-6"> <!--On larger devices it'll cover 4 column spaces & on smaller 6 col. spaces-->
           <div class="service card-effect">
             <div class="iconbox">
               <i class='bx bxs-clinic'></i>
             </div>
-            <h5>Service</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Labore suscipit blanditiis facere officia asperiores vero 
-              ex commodi numquam minus amet.</p>
+            <h5 class="mt-4 mb-2">Inpatient & Outpatient</h5>
+            <p>Round the clock patient monitoring & care.Open 24/7 for walk-ins,
+               admission, room and ward inquiries, check-ups & high critical care.
+            </p>
+          </div>
+        </div>
+        <!--Pharmacy-->
+        <div class="col-lg-4 col-sm-6"> 
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bxs-capsule'></i>
+            </div>
+            <h5 class="mt-4 mb-2">Pharmacy</h5>
+            <p>Our pharmacy services are available to both inpatients and outpatients.
+              24/7 pharmacy services. Local and international prescriptions</p>
+          </div>
+        </div>
+         <!--Accident & Emergency Services-->
+        <div class="col-lg-4 col-sm-6"> 
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bxs-ambulance'></i>
+            </div>
+            <h5 class="mt-4 mb-2">Accident & Emergency Services</h5>
+            <p>Fully equipped for medical accidents and emergency care, with ambulances &
+              staff to handle complex trauma cases.
+            </p>
+          </div>
+        </div>
+         <!--Antenatal & Gynaecology-->
+        <div class="col-lg-4 col-sm-6"> 
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bxs-donate-heart'></i>
+            </div>
+            <h5 class="mt-4 mb-2">Antenatal & Gyneacology</h5>
+            <p>Comprehensive care to mothers from conception, to pregnancy & 
+              delivery plus postnatal. Reproductive health. Family planning services.
+            </p>
+          </div>
+        </div>
+         <!--Laboratory-->
+        <div class="col-lg-4 col-sm-6"> 
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bx-test-tube'></i>
+            </div>
+            <h5 class="mt-4 mb-2">Laboratory</h5>
+            <p>We have one of the best equipped and staffed laboratories, offering 
+              the most specialized tests. Daily internal quality controls run to ensure 
+              quality of the reports.</p>
+          </div>
+        </div>
+         <!--Radiology-->
+        <div class="col-lg-4 col-sm-6"> 
+          <div class="service card-effect">
+            <div class="iconbox">
+              <i class='bx bxs-dryer'></i>
+            </div>
+            <h5 class="mt-4 mb-2">Radiology</h5>
+            <p>Ultrasound. Magnetic Resonance Imaging(MRI). Breast Imaging. General 
+              Radiography (x-ray) and Fluoroscopy. Interventional Radiology.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
+   <!--SERVICES ENDS HERE-->
+
+   <!--ABOUT US-->
+  <section class="row w-100 py-0 bg-light" id="aboutus">
+    <div class="col-lg-6 col-img"></div>
+    <div class="col-lg-6 py-5 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <h6 class="text-primary">Want excellent healthcare services?</h6>
+            <h1>Experience is your best bet</h1>
+            <p>
+              Hospital services make up the core of a hospital's offerings.
+              They are often shaped by the needs or wishes of its major users to make
+              the hospital a one-stop / core institution of its local community or medical
+              network. At Med-Innov8, we provide basic services and personnel in departments
+              of medicine and surgery—that cater for clinical specific diseases and conditions,
+              as well as emergency services.
+            </p>
+
+            <div class="about d-flex mt-5">
+              <div class="iconbox me-3">
+                <i class='bx bxs-user-plus'></i>
+              </div>
+              <div>
+                <h5>Personalized Service</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Labore suscipit blanditiis.</p>
+              </div>
+            </div>
+            <div class="about d-flex mt-2">
+              <div class="iconbox me-3">
+                <i class='bx bx-calendar-star'></i>
+              </div>
+              <div>
+                <h5>Ease of Access</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Labore suscipit blanditiis.</p>
+              </div>
+            </div>
+            <div class="about d-flex mt-2">
+              <div class="iconbox me-3">
+                <i class='bx bx-globe' ></i>
+              </div>
+              <div>
+                <h5>World-class Healthcare </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Labore suscipit blanditiis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--ABOUT US ENDS HERE-->
+
+   <!--MANAGEMENT BOARD-->
+  <section id="board">
+    <div class="container">
+      <div class="row-mb-5">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">Management Board</h6>
+          <h1>Meet Our Board of Management</h1>
+          <p>Board of Management is in charge of the hospital’s corporate governance.
+            The board members attach great importance to the need to conduct the hospital’s 
+            business operations with integrity and in accordance with generally accepted 
+            corporate practice. They also endorse the internationally developed principles 
+            of good corporate governance.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center g-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="1board.png" alt="">
+            <h5 class="mb-0 ">Wambui Njeri</h5>
+            <h6>Chairperson</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="2board.png" alt="">
+            <h5 class="mb-0 ">Obi Rhamaphosa</h5>
+            <h6>Vice Chairperson</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="3board.png" alt="">
+            <h5 class="mb-0 ">Kody Dikeledi</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="4board.png" alt="">
+            <h5 class="mb-0 ">Tesfaye Habimana</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="5board.png" alt="">
+            <h5 class="mb-0 ">John Stone</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="6board.png" alt="">
+            <h5 class="mb-0 ">Anne Joubert</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="board-member card-effect">
+            <img src="7board.png" alt="">
+            <h5 class="mb-0 ">Isaac Sachs</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6"> <!--On larger devices it'll cover 4 column spaces & on smaller 6 col. spaces-->
+          <div class="board-member card-effect">
+            <img src="8board.png" alt="">
+            <h5>Sonmi Wannity</h5>
+            <h6>Board Member</h6>
+          </div>
+        </div>
+  </section>
+   <!--MANAGEMENT BOARD ENDS HERE-->
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -4,7 +4,7 @@
     --primary: #0d6efc;
     --dark: #21252f;
     --body: #888;
-    --box-shadow: 0 8px 22px rgba(0,0,0,0.01);
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.356);
 
 }
 
@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5,h6,
 a {
     color: var(--dark);
     text-decoration: none;
+}
+
+.navbar {
+    box-shadow: var(--box-shadow);
 }
 
 .navbar .logo {
@@ -81,4 +85,65 @@ section {
 .card-effect:hover {
     box-shadow: none;
     transform: translateY(5px);
+}
+
+.iconbox {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 38px;
+    border-radius: 100px;
+    flex: none;
+}
+
+.service {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.service::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: rgba(233, 125, 24, 0.863);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.service:hover .iconbox {
+    background-color: #fff;
+    color: var(--primary);
+}
+
+.service:hover h5,
+.service:hover p {
+    color: #fff;
+}
+
+.service:hover::after {
+    opacity: 1;
+    top: 0;
+}
+
+.col-img {
+    background-image: url(2cover.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+
+}
+
+.board-member img {
+    width: 125px;  
+    height: 120px;
+    border-radius: 100px;
 }
