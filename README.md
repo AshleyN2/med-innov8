@@ -1,24 +1,9 @@
-# README
+# Med-Innov8
+Med-Innov8 is a healthcare system that allows users easy access to hospital services, specifically booking appointments and keeping tabs of their medical record.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Deployment Link
+http://med-innov8.surge.sh/
 
-Things you may want to cover:
+### Demo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Screencast from 09-12-2022 02:04:57 ALASIRI.webm](https://user-images.githubusercontent.com/53012069/206719074-2f795d5f-d906-4acf-900d-637878806a54.webm)
