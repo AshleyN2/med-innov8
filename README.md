@@ -2,7 +2,7 @@
 Med-Innov8 is a healthcare system that allows users easy access to hospital services, specifically booking appointments and keeping tabs of their medical record.
 
 ## Deployment Link
-http://med-innov8.surge.sh/
+https://med-innov8.onrender.com/
 
 ### Demo
 
